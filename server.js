@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 
 //cargar el archivo de config.env en dotenv
-dotenv.config({path: './config/config.env'});
+dotenv.config({path:'./config/config.env'});
 
 
 //crear objeto app a partir de la clase express()
